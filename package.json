@@ -1,0 +1,29 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "A robust Discord music bot using Node.js, discord.js v14, @discordjs/voice, and play-dl.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "discord.js",
+    "play-dl"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.16.12",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "opusscript": "^0.1.1",
+    "play-dl": "^1.9.7",
+    "youtubei.js": "^18.0.0"
+  }
+}
